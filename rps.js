@@ -51,6 +51,7 @@ let resetButton=()=>{
     computerScore=0;
     uScore.innerText=userScore;
     cScore.innerText=computerScore;
+    dMsg.innerText="Start the Game, select any choice from above and computer also chooses randomly. When you beat computer your score will be added but, when you loose computer gains point. Choose wisely. Your results will be display here";
 }
 rbtn.addEventListener("click",resetButton);
 
