@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="pieces">
+            <div class="mcontent" id="Rock" style="background-color:orange">Rock</div>
+            <div class="mcontent" id="Paper" style="background-color:darkgray">Paper</div>
+            <div class="mcontent" id="Scissor" style="background-color:lightgreen">Scissor</div>
+        </div>
+        <div class="scoreboard">
+            <div class="userscore">
+                <p>User Score</p>
+                <p id="usermsg">0</p>
+            </div>
+            <div class="compscore">
+                <p>Computer Score</p>
+                <p id="compmsg">0</p>
+            </div>
+        </div>
+        <button class="msg">Start the Game, select any choice from above and computer also chooses randomly. When you beat computer your score will be added but, when you loose computer gains point. Choose wisely. Your results will be display here</button><br>
+        <button id="rst">Reset</button>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
